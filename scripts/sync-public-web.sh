@@ -46,7 +46,7 @@ Usage:
 
 Convention:
   <project> maps to <PROJECT>_PUBLIC_WEB_PATH in .env
-  Example: fiscora -> FISCORA_PUBLIC_WEB_PATH
+  Example: project-name -> PROJECT_NAME_PUBLIC_WEB_PATH
 EOF
 }
 
