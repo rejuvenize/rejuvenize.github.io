@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#08111f">
-  <meta name="description" content="rejuvenize builds focused digital products with clear interfaces, strong systems, and measurable outcomes.">
+  <meta name="theme-color" content="#0a1322">
+  <meta name="description" content="rejuvenize is an indie-focused dev studio building mobile apps, desktop apps, and web apps for founders, teams, and businesses.">
   <meta name="google-site-verification" content="tuWBf2UiYq0NSJHIGPPIli4gIiateKBWPWQjrOWc-LE" />
 
   <title>rejuvenize</title>
@@ -14,76 +14,271 @@
   <link rel="icon" type="image/png" sizes="192x192" href="./icons/web-app-icon-192.png">
   <link rel="stylesheet" href="./css/theme.css">
 </head>
-<body class="landing-page">
+<body class="landing-page" id="top">
   <main class="site-shell">
-    <section class="hero-card">
+    <header class="topbar surface-card">
+      <a class="mini-brand" href="#top" aria-label="rejuvenize home">
+        <img class="mini-brand-mark" src="./icons/icon.png" alt="" aria-hidden="true">
+        <span class="mini-brand-wordmark">rejuvenize</span>
+      </a>
+
+      <div class="nav-shell">
+        <input class="nav-toggle-input" id="nav-toggle" type="checkbox" aria-hidden="true">
+        <label class="nav-toggle" for="nav-toggle" aria-label="Toggle navigation">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="visually-hidden">Menu</span>
+        </label>
+
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-cta nav-app-link" href="./fiscora/" aria-label="Latest App: Fiscora">
+            <span class="nav-app-badge" aria-hidden="true">New app</span>
+            <img class="nav-app-icon" src="./fiscora/icons/favicon-32.png" alt="" aria-hidden="true">
+            <span>Fiscora</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-card hero-grid" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow">rejuvenize Studio</p>
+        <p class="eyebrow">Independent Dev Studio</p>
+
         <div class="brand-lockup" aria-label="rejuvenize wordmark">
           <img class="brand-mark" src="./icons/icon.png" alt="" aria-hidden="true">
           <div class="brand-wordmark">rejuvenize</div>
         </div>
-        <h1>Digital products rebuilt with clarity, speed, and a sharp visual signal.</h1>
-        <p class="lede">rejuvenize creates focused software experiences with disciplined implementation, strong brand shape, and interfaces that stay readable under pressure.</p>
+
+        <h1 id="hero-title">Apps built with clarity and care.</h1>
+        <p class="lede">rejuvenize is my studio name for building mobile apps, desktop apps, and web apps for founders, teams, and businesses. Most projects are built solo, with trusted collaborators brought in when the scope needs it.</p>
+
+        <div class="pill-row" aria-label="Studio focus areas">
+          <span class="tag">Flutter</span>
+          <span class="tag">React</span>
+          <span class="tag">Vue</span>
+          <span class="tag">Python</span>
+        </div>
+
+        <div class="action-row">
+          <a class="button-primary" href="#contact">Start a Conversation</a>
+          <a class="button-secondary" href="#projects">See Projects</a>
+        </div>
       </div>
+
+      <aside class="surface-card hero-panel signal-panel" aria-labelledby="fit-title">
+        <p class="signal-label" id="fit-title">Who this is for</p>
+
+        <ul class="signal-list">
+          <li>
+            <span>01</span>
+            <div>
+              <strong>Founders and startups.</strong>
+              <p>For early products, launch pages, MVPs, and design-minded app builds.</p>
+            </div>
+          </li>
+          <li>
+            <span>02</span>
+            <div>
+              <strong>Businesses and internal teams.</strong>
+              <p>For internal tools, customer-facing apps, and web platforms that need steady delivery.</p>
+            </div>
+          </li>
+          <li>
+            <span>03</span>
+            <div>
+              <strong>Clients who need a flexible setup.</strong>
+              <p>Good for freelance work, contract work, and collaborations that may grow into a larger team effort.</p>
+            </div>
+          </li>
+        </ul>
+      </aside>
     </section>
 
-    <section class="section">
+    <section class="section" id="services" aria-labelledby="services-title">
       <div class="section-header">
         <div>
-          <p class="eyebrow">What We Do</p>
-          <h2 class="section-title">Small pitches, different layouts, one clear visual language.</h2>
+          <p class="eyebrow">Services</p>
+          <h2 class="section-title" id="services-title">What I can build.</h2>
         </div>
-        <p class="subtle section-copy">This page stays intentionally light while the broader site takes shape.</p>
+        <p class="section-copy">Technical execution with a cleaner product feel, without unnecessary layers around the work.</p>
       </div>
 
       <div class="card-grid">
         <article class="surface-card product-card">
-          <p class="tag">Clarity</p>
-          <h3>Interfaces that communicate quickly.</h3>
-          <p>Clear structure, strong contrast, and deliberate hierarchy so the message lands without extra noise.</p>
-          <span class="text-link is-static">Fast to read, calm to use</span>
+          <p class="tag">Apps</p>
+          <h3>Mobile and desktop apps.</h3>
+          <p>Built for real use, with clear flows, stable foundations, and a product feel that stays polished.</p>
         </article>
 
         <article class="surface-card product-card">
-          <p class="tag">Identity</p>
-          <h3>Brand systems with a sharper point of view.</h3>
-          <p>Reusable visual building blocks that feel distinct, stay disciplined, and scale without becoming ornamental.</p>
-          <span class="text-link is-static">Built to stay recognizable</span>
+          <p class="tag">Web</p>
+          <h3>Web apps and dashboards.</h3>
+          <p>Structured for day-to-day use, with maintainable front ends and room to evolve as the product grows.</p>
         </article>
 
         <article class="surface-card product-card">
-          <p class="tag">Execution</p>
-          <h3>Lean delivery with room to evolve.</h3>
-          <p>Small, focused surfaces with strong defaults so the site can grow without losing shape or simplicity.</p>
-          <span class="text-link is-static">Made for iteration</span>
+          <p class="tag">Landing</p>
+          <h3>Landing pages that are easy to understand.</h3>
+          <p>Clear messaging, better pacing, and a sharper first impression for products, apps, and launches.</p>
         </article>
       </div>
     </section>
 
-    <section class="detail-grid">
-      <article class="elevated-card manifesto-card">
-        <p class="eyebrow">Why rejuvenize</p>
-        <h2>Polish matters most when the system underneath stays simple.</h2>
-        <p>rejuvenize products combine a bold external signal with disciplined implementation choices. The visual language should feel confident, but the code and content model should stay practical.</p>
-      </article>
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Projects</p>
+          <h2 class="section-title" id="projects-title">Recent work.</h2>
+        </div>
+        <p class="section-copy">A current product built under the Rejuvenize studio name.</p>
+      </div>
 
-      <article class="metric-card">
-        <h3>Approach</h3>
-        <p class="metric-value">Focused</p>
-        <p class="metric-change">Clear messages, controlled pacing, and minimal distraction.</p>
-      </article>
+      <article class="elevated-card project-feature">
+        <div class="project-feature-copy">
+          <p class="tag">Latest App</p>
+          <h3>Fiscora</h3>
+          <p>Fiscora is a personal finance app shaped around a cleaner interface, a focused structure, and a more approachable day-to-day experience.</p>
 
-      <article class="metric-card">
-        <h3>Direction</h3>
-        <p class="metric-value">Bold</p>
-        <p class="metric-change">Sharper geometry, darker navy surfaces, and stronger contrast.</p>
+          <div class="action-row">
+            <a class="button-primary" href="./fiscora/">Visit Fiscora</a>
+            <a class="button-secondary" href="./fiscora/privacy-policy.html">Privacy</a>
+          </div>
+        </div>
+
+        <div class="project-feature-panel">
+          <img class="project-app-icon" src="./fiscora/icons/web-app-icon-192.png" alt="Fiscora app icon">
+
+          <ul class="project-highlights">
+            <li>Personal finance tracking with a calmer UI.</li>
+            <li>Built to feel clean, direct, and easy to use.</li>
+            <li>A studio product that reflects the same design and build approach.</li>
+          </ul>
+        </div>
       </article>
     </section>
 
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 class="section-title" id="about-title">How I work.</h2>
+        </div>
+        <p class="section-copy">Direct communication, practical scope, and a build process that stays close to the actual product.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="elevated-card manifesto-card">
+          <h3>Solo-led, team-ready.</h3>
+          <p>I'm mainly a solo builder, which keeps communication direct and decisions fast. When a project needs more coverage, I can bring in people under the same direction. <br /><br />
+            My background is in software engineering, technical leadership, and product delivery across client work, startup work, and internal team environments.</p>
+        </article>
+
+        <article class="metric-card">
+          <h3>Role</h3>
+          <p class="metric-value">Engineer</p>
+          <p class="metric-change">Hands-on across product, full-stack applications, and delivery.</p>
+        </article>
+
+        <article class="metric-card">
+          <h3>Experience</h3>
+          <p class="metric-value">Lead</p>
+          <p class="metric-change">Built with both engineering and team leadership in mind.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 class="section-title" id="contact-title">Send a short message.</h2>
+        </div>
+        <p class="section-copy">A short brief is enough to start: what you're building, what you need, and where you want help.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Replace the action URL with your protected form provider endpoint before going live, and enable provider-side CAPTCHA or bot scoring. -->
+        <form class="surface-card contact-form" action="https://formspree.io/f/xdaygvnp" method="POST">
+          <input type="hidden" name="_subject" value="New Rejuvenize studio inquiry">
+
+          <div class="contact-trap" aria-hidden="true">
+            <label for="company-name">Company</label>
+            <input id="company-name" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="field-grid">
+            <label class="form-field" for="contact-name">
+              <span>Name</span>
+              <input id="contact-name" name="name" type="text" autocomplete="name" required>
+            </label>
+
+            <label class="form-field" for="contact-email">
+              <span>Email</span>
+              <input id="contact-email" name="email" type="email" autocomplete="email" required>
+            </label>
+          </div>
+
+          <label class="form-field" for="contact-message">
+            <span>Project</span>
+            <textarea id="contact-message" name="message" rows="7" autocomplete="off" placeholder="What are you building and what do you need help with?" required></textarea>
+          </label>
+
+          <label class="checkbox-field" for="contact-consent">
+            <input id="contact-consent" name="consent" type="checkbox" required>
+            <span>I'm okay with Rejuvenize replying by email.</span>
+          </label>
+
+          <div class="action-row">
+            <button class="button-primary" type="submit">Send Inquiry</button>
+            <a class="button-secondary" href="mailto:rejuvenize@proton.me">Email Instead</a>
+          </div>
+
+          <p class="form-note">This form is handled by Formspree. If you prefer direct contact, email <a href="mailto:rejuvenize@proton.me">rejuvenize@proton.me</a>.</p>
+        </form>
+
+        <aside class="surface-card contact-panel" aria-labelledby="contact-notes-title">
+          <p class="tag">Contact Notes</p>
+          <h3 id="contact-notes-title">Open to different kinds of work.</h3>
+          <p>Available for client projects, freelance work, collaborations, contract work, and app partnerships.</p>
+          <ul class="contact-list">
+            <li>Good fit: mobile apps, desktop apps, web apps, and landing pages.</li>
+            <li>Works with founders, startups, businesses, and independent teams.</li>
+            <li>Direct fallback email: <a href="mailto:rejuvenize@proton.me">rejuvenize@proton.me</a>.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
     <footer class="site-footer">
-      <p>rejuvenize</p>
+      <p>rejuvenize is my studio name for products, client work, freelance work, and collaborations.</p>
+
+      <div class="footer-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="./fiscora/">Fiscora</a>
+      </div>
     </footer>
   </main>
+
+  <a class="back-to-top" href="#top" aria-label="Return to top">Top</a>
+
+  <script>
+    const navToggle = document.querySelector('#nav-toggle');
+    const navLinks = document.querySelectorAll('.site-nav a');
+
+    if (navToggle && navLinks.length > 0) {
+      navLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+          navToggle.checked = false;
+        });
+      });
+    }
+  </script>
 </body>
 </html>
