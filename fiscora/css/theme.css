@@ -987,6 +987,18 @@ hr {
   margin: 0;
 }
 
+.footer-meta-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.22);
+  text-underline-offset: 0.16em;
+}
+
+.footer-meta-link:hover {
+  color: var(--color-text);
+  text-decoration-color: rgba(255, 255, 255, 0.42);
+}
+
 .footer-section-title {
   color: var(--color-text);
   font-size: 0.9rem;
