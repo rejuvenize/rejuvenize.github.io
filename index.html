@@ -15,6 +15,80 @@
   <link rel="stylesheet" href="./css/theme.css">
 </head>
 <body class="landing-page" id="top">
+  <svg class="tech-icon-defs" aria-hidden="true" focusable="false">
+    <symbol id="tech-flutter" viewBox="0 0 64 64">
+      <path d="M16 36 33 19h12L28 36zm0 0 12 12h12L28 36zm16 0 8-8 12 12-8 8z" fill="currentColor"/>
+    </symbol>
+    <symbol id="tech-react" viewBox="0 0 64 64">
+      <g fill="none" stroke="currentColor" stroke-width="4">
+        <ellipse cx="32" cy="32" rx="21" ry="8"/>
+        <ellipse cx="32" cy="32" rx="21" ry="8" transform="rotate(60 32 32)"/>
+        <ellipse cx="32" cy="32" rx="21" ry="8" transform="rotate(-60 32 32)"/>
+      </g>
+      <circle cx="32" cy="32" r="5" fill="currentColor"/>
+    </symbol>
+    <symbol id="tech-vue" viewBox="0 0 64 64">
+      <path d="M12 17h14l6 10 6-10h14L32 50z" fill="currentColor" opacity="0.38"/>
+      <path d="M20 17h8l4 7 4-7h8L32 39z" fill="currentColor"/>
+    </symbol>
+    <symbol id="tech-python" viewBox="0 0 64 64">
+      <path d="M33 8c-11 0-15 4-15 12v8h20v5H15c-6 0-10 5-10 11 0 10 8 14 17 14h11c9 0 15-5 15-13V22c0-8-6-14-15-14Zm-8 8a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z" fill="currentColor" opacity="0.68"/>
+      <path d="M31 56c11 0 15-4 15-12v-8H26v-5h23c6 0 10-5 10-11 0-10-8-14-17-14H31c-9 0-15 5-15 13v23c0 8 6 14 15 14Zm8-8a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="tech-java" viewBox="0 0 64 64">
+      <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M23 46h21"/>
+        <path d="M23 40h16a6 6 0 0 0 0-12h-5"/>
+        <path d="M23 26v20"/>
+        <path d="M33 14c4 3-4 5 0 8"/>
+        <path d="M41 10c4 4-4 6 0 10"/>
+      </g>
+    </symbol>
+    <symbol id="tech-javascript" viewBox="0 0 64 64">
+      <rect x="12" y="12" width="40" height="40" rx="9" fill="currentColor" opacity="0.18" stroke="currentColor" stroke-width="4"/>
+      <text x="22" y="41" fill="currentColor" font-family="Arial, sans-serif" font-size="18" font-weight="700">JS</text>
+    </symbol>
+    <symbol id="tech-firebase" viewBox="0 0 64 64">
+      <path d="M21 53 29 14l8 10-16 29Zm10-24 10-15 4 10-10 21Zm2 24 5-10 9-3-14 13Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="tech-supabase" viewBox="0 0 64 64">
+      <path d="M42 10c4 0 6 5 3 8L28 40c-2 3 0 8 4 8h10l-6 6H26c-8 0-12-9-7-15L35 18c2-3 0-8-4-8H21l6-6z" fill="currentColor"/>
+    </symbol>
+    <symbol id="tech-gcp" viewBox="0 0 64 64">
+      <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 43h24a8 8 0 1 0-1-16 13 13 0 0 0-25-3 9 9 0 0 0 2 19Z"/>
+        <path d="M27 30h10"/>
+        <path d="M32 25v10"/>
+      </g>
+    </symbol>
+    <symbol id="tech-aws" viewBox="0 0 64 64">
+      <text x="16" y="31" fill="currentColor" font-family="Arial, sans-serif" font-size="16" font-weight="700">aws</text>
+      <path d="M18 43c8 5 20 5 28 0" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="tech-azure" viewBox="0 0 64 64">
+      <path d="M18 49 30 14h11L28 49zm14 0 5-11h9L41 49z" fill="currentColor"/>
+    </symbol>
+    <symbol id="tech-kotlin" viewBox="0 0 64 64">
+      <path d="M16 16h32L32 32 48 48H16Z" fill="currentColor" opacity="0.34"/>
+      <path d="M16 48 32 32 48 16v32z" fill="currentColor"/>
+    </symbol>
+    <symbol id="tech-swift" viewBox="0 0 64 64">
+      <path d="M20 17c9 7 15 14 20 23-8-4-14-8-19-13 4 6 10 11 18 16-6 2-12 1-17-2-5-3-7-8-8-13 3 2 6 4 10 5-4-4-7-10-4-16z" fill="currentColor"/>
+    </symbol>
+  </svg>
+
+  <div class="tech-float-layer tech-float-layer-back" aria-hidden="true">
+    <span class="tech-float tech-float-1 is-flutter"><svg viewBox="0 0 64 64"><use href="#tech-flutter"></use></svg></span>
+    <span class="tech-float tech-float-3 is-vue"><svg viewBox="0 0 64 64"><use href="#tech-vue"></use></svg></span>
+    <span class="tech-float tech-float-4 is-python"><svg viewBox="0 0 64 64"><use href="#tech-python"></use></svg></span>
+    <span class="tech-float tech-float-6 is-javascript"><svg viewBox="0 0 64 64"><use href="#tech-javascript"></use></svg></span>
+    <span class="tech-float tech-float-8 is-supabase"><svg viewBox="0 0 64 64"><use href="#tech-supabase"></use></svg></span>
+    <span class="tech-float tech-float-9 is-gcp"><svg viewBox="0 0 64 64"><use href="#tech-gcp"></use></svg></span>
+    <span class="tech-float tech-float-10 is-aws"><svg viewBox="0 0 64 64"><use href="#tech-aws"></use></svg></span>
+    <span class="tech-float tech-float-12 is-kotlin"><svg viewBox="0 0 64 64"><use href="#tech-kotlin"></use></svg></span>
+    <span class="tech-float tech-float-13 is-swift"><svg viewBox="0 0 64 64"><use href="#tech-swift"></use></svg></span>
+  </div>
+
   <main class="site-shell">
     <header class="topbar surface-card">
       <a class="mini-brand" href="#top" aria-label="rejuvenize home">
@@ -57,46 +131,11 @@
         <h1 id="hero-title">Apps built with clarity and care.</h1>
         <p class="lede">rejuvenize is my studio name for building mobile apps, desktop apps, and web apps for founders, teams, and businesses. Most projects are built solo, with trusted collaborators brought in when the scope needs it.</p>
 
-        <div class="pill-row" aria-label="Studio focus areas">
-          <span class="tag">Flutter</span>
-          <span class="tag">React</span>
-          <span class="tag">Vue</span>
-          <span class="tag">Python</span>
-        </div>
-
         <div class="action-row">
           <a class="button-primary" href="#contact">Start a Conversation</a>
           <a class="button-secondary" href="#projects">See Projects</a>
         </div>
       </div>
-
-      <aside class="surface-card hero-panel signal-panel" aria-labelledby="fit-title">
-        <p class="signal-label" id="fit-title">Who this is for</p>
-
-        <ul class="signal-list">
-          <li>
-            <span>01</span>
-            <div>
-              <strong>Founders and startups.</strong>
-              <p>For early products, launch pages, MVPs, and design-minded app builds.</p>
-            </div>
-          </li>
-          <li>
-            <span>02</span>
-            <div>
-              <strong>Businesses and internal teams.</strong>
-              <p>For internal tools, customer-facing apps, and web platforms that need steady delivery.</p>
-            </div>
-          </li>
-          <li>
-            <span>03</span>
-            <div>
-              <strong>Clients who need a flexible setup.</strong>
-              <p>Good for freelance work, contract work, and collaborations that may grow into a larger team effort.</p>
-            </div>
-          </li>
-        </ul>
-      </aside>
     </section>
 
     <section class="section" id="services" aria-labelledby="services-title">
@@ -241,16 +280,46 @@
           <p class="form-note">This form is handled by Formspree. If you prefer direct contact, email <a href="mailto:rejuvenize@proton.me">rejuvenize@proton.me</a>.</p>
         </form>
 
-        <aside class="surface-card contact-panel" aria-labelledby="contact-notes-title">
-          <p class="tag">Contact Notes</p>
-          <h3 id="contact-notes-title">Open to different kinds of work.</h3>
-          <p>Available for client projects, freelance work, collaborations, contract work, and app partnerships.</p>
-          <ul class="contact-list">
-            <li>Good fit: mobile apps, desktop apps, web apps, and landing pages.</li>
-            <li>Works with founders, startups, businesses, and independent teams.</li>
-            <li>Direct fallback email: <a href="mailto:rejuvenize@proton.me">rejuvenize@proton.me</a>.</li>
-          </ul>
-        </aside>
+        <div class="contact-sidebar">
+          <aside class="surface-card contact-panel" aria-labelledby="contact-notes-title">
+            <p class="tag">Contact Notes</p>
+            <h3 id="contact-notes-title">Open to different kinds of work.</h3>
+            <p>Available for client projects, freelance work, collaborations, contract work, and app partnerships.</p>
+            <ul class="contact-list">
+              <li>Good fit: mobile apps, desktop apps, web apps, and landing pages.</li>
+              <li>Works with founders, startups, businesses, and independent teams.</li>
+              <li>Direct fallback email: <a href="mailto:rejuvenize@proton.me">rejuvenize@proton.me</a>.</li>
+            </ul>
+          </aside>
+
+          <aside class="surface-card hero-panel signal-panel" aria-labelledby="fit-title">
+            <p class="signal-label" id="fit-title">Who this is for</p>
+
+            <ul class="signal-list">
+              <li>
+                <span>01</span>
+                <div>
+                  <strong>Founders and startups.</strong>
+                  <p>For early products, launch pages, MVPs, and design-minded app builds.</p>
+                </div>
+              </li>
+              <li>
+                <span>02</span>
+                <div>
+                  <strong>Businesses and internal teams.</strong>
+                  <p>For internal tools, customer-facing apps, and web platforms that need steady delivery.</p>
+                </div>
+              </li>
+              <li>
+                <span>03</span>
+                <div>
+                  <strong>Clients who need a flexible setup.</strong>
+                  <p>Good for freelance work, contract work, and collaborations that may grow into a larger team effort.</p>
+                </div>
+              </li>
+            </ul>
+          </aside>
+        </div>
       </div>
     </section>
 
@@ -265,6 +334,13 @@
       </div>
     </footer>
   </main>
+
+  <div class="tech-float-layer tech-float-layer-front" aria-hidden="true">
+    <span class="tech-float tech-float-2 is-react"><svg viewBox="0 0 64 64"><use href="#tech-react"></use></svg></span>
+    <span class="tech-float tech-float-5 is-java"><svg viewBox="0 0 64 64"><use href="#tech-java"></use></svg></span>
+    <span class="tech-float tech-float-7 is-firebase"><svg viewBox="0 0 64 64"><use href="#tech-firebase"></use></svg></span>
+    <span class="tech-float tech-float-11 is-azure"><svg viewBox="0 0 64 64"><use href="#tech-azure"></use></svg></span>
+  </div>
 
   <a class="back-to-top" href="#top" aria-label="Return to top">Top</a>
 
