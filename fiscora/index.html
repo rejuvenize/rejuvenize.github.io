@@ -1,582 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#121212">
-  <title>Fiscora | Privacy-First Finance Tracker on Google Play</title>
-  <link rel="canonical" href="https://rejuvenize.github.io/fiscora/">
-  <meta
-    name="description"
-    content="Fiscora is a privacy-first, local-first finance tracker now available on Google Play. Track expenses, net worth, and financial progress with a free core experience and optional PRO depth."
-  >
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://rejuvenize.github.io/fiscora/">
-  <meta property="og:site_name" content="Fiscora">
-  <meta property="og:title" content="Fiscora | Privacy-First Finance Tracker on Google Play">
-  <meta
-    property="og:description"
-    content="Track expenses, net worth, and financial progress with a free core experience, optional PRO reports and portfolio views, and Android availability on Google Play."
-  >
-  <meta property="og:image" content="https://rejuvenize.github.io/fiscora/images/Play-Feature-graphic.png">
-  <meta property="og:image:secure_url" content="https://rejuvenize.github.io/fiscora/images/Play-Feature-graphic.png">
-  <meta property="og:image:width" content="1024">
-  <meta property="og:image:height" content="576">
-  <meta property="og:image:alt" content="Fiscora feature graphic showing the brand and key product screens">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Fiscora | Privacy-First Finance Tracker on Google Play">
-  <meta
-    name="twitter:description"
-    content="Track expenses, net worth, and financial progress with a free core experience, optional PRO reports and portfolio views, and Android availability on Google Play."
-  >
-  <meta name="twitter:image" content="https://rejuvenize.github.io/fiscora/images/Play-Feature-graphic.png">
-  <meta name="twitter:image:alt" content="Fiscora feature graphic showing the brand and key product screens">
-  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="./icons/web-app-icon-192.png">
-  <link rel="stylesheet" href="./css/theme.css">
-</head>
-<body class="landing-page">
-  <header class="site-header surface-card">
-    <a class="brand-lockup" href="#hero" aria-label="Fiscora home">
-      <img
-        class="brand-icon"
-        src="./icons/web-app-icon-192.png"
-        alt="Fiscora logo"
-        width="56"
-        height="56"
-      >
-      <span class="brand-text-group">
-        <strong class="brand-name">Fiscora</strong>
-        <span class="brand-tagline">Now available on Google Play for Android.</span>
-      </span>
-    </a>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BDH43FVKHK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    <nav class="site-nav" aria-label="Primary">
-      <a href="#features">Features</a>
-      <a href="#faq">FAQ</a>
-    </nav>
+      gtag("config", "G-BDH43FVKHK");
+    </script>
 
-    <div class="header-actions">
-      <a
-        class="store-badge"
-        href="https://play.google.com/store/apps/details?id=com.rejuvenize.fiscora"
-        target="_blank"
-        rel="noreferrer noopener"
-        aria-label="Get Fiscora on Google Play"
-      >
-        <span class="store-badge__icon" aria-hidden="true">
-          <svg viewBox="0 0 28 28" role="presentation" focusable="false">
-            <defs>
-              <linearGradient id="store-badge-gradient-header" x1="5" y1="14" x2="23" y2="14" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#00d7ff"></stop>
-                <stop offset="1" stop-color="#79ffb7"></stop>
-              </linearGradient>
-            </defs>
-            <path d="M7 5.5L21.5 14L7 22.5V5.5Z" fill="url(#store-badge-gradient-header)"></path>
-            <path d="M7 5.5L13.4 11.9L10.4 14L7 5.5Z" fill="#00a6ff" opacity="0.9"></path>
-            <path d="M7 22.5L13.4 16.1L10.4 14L7 22.5Z" fill="#00d084" opacity="0.9"></path>
-          </svg>
-        </span>
-        <span class="store-badge__copy">
-          <span class="store-badge__label">Get it on</span>
-          <span class="store-badge__title">Google Play</span>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#121212" />
+    <title>Fiscora | Privacy-First Finance Tracker on Google Play</title>
+    <link rel="canonical" href="https://rejuvenize.github.io/fiscora/" />
+    <meta
+      name="description"
+      content="Fiscora is a privacy-first, local-first finance tracker now available on Google Play. Track expenses, net worth, and financial progress with a free core experience and optional PRO depth."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rejuvenize.github.io/fiscora/" />
+    <meta property="og:site_name" content="Fiscora" />
+    <meta
+      property="og:title"
+      content="Fiscora | Privacy-First Finance Tracker on Google Play"
+    />
+    <meta
+      property="og:description"
+      content="Track expenses, net worth, and financial progress with a free core experience, optional PRO reports and portfolio views, and Android availability on Google Play."
+    />
+    <meta
+      property="og:image"
+      content="https://rejuvenize.github.io/fiscora/images/Play-Feature-graphic.png"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://rejuvenize.github.io/fiscora/images/Play-Feature-graphic.png"
+    />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="576" />
+    <meta
+      property="og:image:alt"
+      content="Fiscora feature graphic showing the brand and key product screens"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Fiscora | Privacy-First Finance Tracker on Google Play"
+    />
+    <meta
+      name="twitter:description"
+      content="Track expenses, net worth, and financial progress with a free core experience, optional PRO reports and portfolio views, and Android availability on Google Play."
+    />
+    <meta
+      name="twitter:image"
+      content="https://rejuvenize.github.io/fiscora/images/Play-Feature-graphic.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Fiscora feature graphic showing the brand and key product screens"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./icons/favicon-32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./icons/web-app-icon-192.png"
+    />
+    <link rel="stylesheet" href="./css/theme.css" />
+  </head>
+  <body class="landing-page">
+    <header class="site-header surface-card">
+      <a class="brand-lockup" href="#hero" aria-label="Fiscora home">
+        <img
+          class="brand-icon"
+          src="./icons/web-app-icon-192.png"
+          alt="Fiscora logo"
+          width="56"
+          height="56"
+        />
+        <span class="brand-text-group">
+          <strong class="brand-name">Fiscora</strong>
+          <span class="brand-tagline"
+            >Now available on Google Play for Android.</span
+          >
         </span>
       </a>
-    </div>
-  </header>
 
-  <main class="site-shell landing-shell">
-    <section id="hero" class="hero-card landing-hero">
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Now on Google Play for Android</p>
-          <h1>Track your money with more clarity and more control.</h1>
-          <p class="lede">
-            Fiscora gives you a free core experience for tracking accounts, expenses, and everyday progress,
-            then opens deeper PRO reports, portfolio views, encrypted backup, richer organization, and privacy
-            conveniences when you want more depth.
-          </p>
-          <div class="action-row">
-            <a
-              class="store-badge"
-              href="https://play.google.com/store/apps/details?id=com.rejuvenize.fiscora"
-              target="_blank"
-              rel="noreferrer noopener"
-              aria-label="Get Fiscora on Google Play"
-            >
-              <span class="store-badge__icon" aria-hidden="true">
-                <svg viewBox="0 0 28 28" role="presentation" focusable="false">
-                  <defs>
-                    <linearGradient id="store-badge-gradient-hero" x1="5" y1="14" x2="23" y2="14" gradientUnits="userSpaceOnUse">
-                      <stop offset="0" stop-color="#00d7ff"></stop>
-                      <stop offset="1" stop-color="#79ffb7"></stop>
-                    </linearGradient>
-                  </defs>
-                  <path d="M7 5.5L21.5 14L7 22.5V5.5Z" fill="url(#store-badge-gradient-hero)"></path>
-                  <path d="M7 5.5L13.4 11.9L10.4 14L7 5.5Z" fill="#00a6ff" opacity="0.9"></path>
-                  <path d="M7 22.5L13.4 16.1L10.4 14L7 22.5Z" fill="#00d084" opacity="0.9"></path>
-                </svg>
-              </span>
-              <span class="store-badge__copy">
-                <span class="store-badge__label">Get it on</span>
-                <span class="store-badge__title">Google Play</span>
-              </span>
-            </a>
-            <a class="button-outline" href="#faq">Read the FAQ</a>
-            <a class="button-secondary" href="./privacy-policy.html">See how privacy works</a>
-          </div>
-          <p id="play-availability-note" class="availability-note">
-            Fiscora is live on Google Play for Android. Start with the free core experience,
-            then unlock PRO in app when you want deeper reports, portfolio views, encrypted backup,
-            and premium privacy tools.
-          </p>
-
-          <div class="hero-access-grid">
-            <article class="metric-card access-card">
-              <p class="metric-label">Free to start</p>
-              <p class="access-card-title">Track accounts, expenses, and your core financial picture right away.</p>
-            </article>
-            <article class="metric-card access-card">
-              <p class="metric-label">Upgrade once to PRO</p>
-              <p class="access-card-title">Unlock lifetime access to reports, portfolio views, encrypted backup, premium privacy tools, and richer organization.</p>
-            </article>
-            <article class="metric-card access-card">
-              <p class="metric-label">Try deeper Insights first</p>
-              <p class="access-card-title">Watch a quick rewarded ad to temporarily unlock locked Insights widgets before upgrading.</p>
-            </article>
-          </div>
-        </div>
-
-        <div class="hero-visual-stack">
-          <div class="media-window hero-media-window">
-            <img
-              class="device-shot hero-shot shot-home"
-              src="./images/banner-1.png"
-              alt="Fiscora home screen showing net worth, filters, and account cards"
-              width="768"
-              height="1365"
-            >
-          </div>
-          <div class="hero-side-card surface-card">
-            <p class="metric-label">Made for real use</p>
-            <ul class="compact-list">
-              <li>No account required to begin</li>
-              <li>Manual control without bank-linking pressure</li>
-              <li>Local-first setup with practical reporting</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="proof" class="section">
-      <div class="section-header">
-        <div>
-          <p class="eyebrow">Trust you can verify</p>
-          <h2 class="section-title">A finance tracker that explains itself clearly.</h2>
-        </div>
-        <p class="section-summary">
-          Fiscora is strongest when every claim is backed by something real you can see in the product or on this page.
-        </p>
-      </div>
-
-      <div class="proof-grid">
-        <article class="surface-card proof-card">
-          <h3>No account required</h3>
-          <p>Start tracking without creating an account or handing over your setup momentum first.</p>
-        </article>
-        <article class="surface-card proof-card">
-          <h3>Stored on your device first</h3>
-          <p>Your core finance records are positioned to stay local-first unless you choose to export or share them.</p>
-        </article>
-        <article class="surface-card proof-card">
-          <h3>Free core tracking</h3>
-          <p>Use Fiscora for essential expense, account, and summary tracking before deciding whether PRO depth is worth it.</p>
-        </article>
-        <article class="surface-card proof-card">
-          <h3>PRO depth when you want more</h3>
-          <p>Reports, portfolio breakdowns, encrypted backup, and premium organization are there when your tracking grows up.</p>
-        </article>
-        <article class="surface-card proof-card">
-          <h3>Rewarded access for trial moments</h3>
-          <p>A quick rewarded ad can temporarily unlock locked Insights widgets so you can preview deeper analysis without committing yet.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="elevated-card premium-story-card">
-      <div class="section-header premium-story-header">
-        <div>
-          <p class="eyebrow">Premium depth, friendly access</p>
-          <h2 class="section-title">Go deeper without losing the simple starting point.</h2>
-        </div>
-        <p class="section-summary">
-          Fiscora is designed so the core experience stays approachable, while PRO adds deeper analysis,
-          stronger privacy conveniences, and a cleaner way to manage growing financial data.
-        </p>
-      </div>
-
-      <div class="premium-grid">
-        <article class="metric-card premium-card">
-          <p class="metric-label">Reports</p>
-          <h3>Track net worth, account balances, income versus expense, and your strongest saving or spending categories.</h3>
-        </article>
-        <article class="metric-card premium-card">
-          <p class="metric-label">Portfolio</p>
-          <h3>See how assets and liabilities are distributed across tags or accounts so your overall structure is easier to understand.</h3>
-        </article>
-        <article class="metric-card premium-card">
-          <p class="metric-label">Organization and privacy tools</p>
-          <h3>Unlock advanced filters, tags, categories, notes, encrypted backup, and stronger privacy controls as your data grows.</h3>
-        </article>
-      </div>
-
-      <div class="plan-comparison-grid">
-        <article class="surface-card plan-card">
-          <p class="eyebrow">Free</p>
-          <h3>Strong enough to start with confidence.</h3>
-          <ul class="compact-list">
-            <li>Track expenses, accounts, and daily activity</li>
-            <li>Use the free Summary side of Insights</li>
-            <li>Build a reliable habit before upgrading</li>
-          </ul>
-        </article>
-        <article class="surface-card plan-card plan-card-accent">
-          <p class="eyebrow">PRO</p>
-          <h3>For people who want a fuller financial picture.</h3>
-          <p class="subtle">
-            PRO is a paid upgrade with lifetime access to deeper reports, portfolio views,
-            premium organization, encrypted backup, 30-day action history, unlimited accounts, and additional privacy conveniences.
-          </p>
-          <p class="subtle">
-            If you want to sample the locked Insights experience first, rewarded access can temporarily unlock it for a limited time.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section id="features" class="section feature-stack">
-      <div class="section-header">
-        <div>
-          <p class="eyebrow">Features</p>
-          <h2 class="section-title">Built for daily clarity first, then deeper visibility.</h2>
-        </div>
-        <p class="section-summary">
-          The screenshots below show how Fiscora supports everyday tracking, faster entry, and richer reporting when you want a deeper view.
-        </p>
-      </div>
-
-      <article class="elevated-card feature-panel">
-        <div class="feature-copy">
-          <p class="eyebrow">PRO Reports</p>
-          <h3>Take control of your expenses with clearer reporting.</h3>
-          <p>
-            When you want more than a running list of transactions, Fiscora opens a richer reports surface for comparing income versus expense,
-            spotting trends, and seeing where your strongest saving or spending categories are moving.
-          </p>
-          <ul class="compact-list">
-            <li>Track net worth change and balance change over time</li>
-            <li>Compare income versus expense across shared time ranges</li>
-            <li>Surface the categories doing the most work in your finances</li>
-          </ul>
-          <p class="feature-note">
-            Friendly note: this deeper reports layer is part of PRO, while the free experience still lets you build the habit and see core tracking data first.
-          </p>
-        </div>
-        <div class="feature-media">
-          <div class="media-window feature-media-window feature-media-window-wide">
-            <img
-              class="device-shot shot-reports"
-              src="./images/banner-5.png"
-              alt="Fiscora reports screen showing income versus expense trends and top saving categories"
-              width="768"
-              height="1365"
-              loading="lazy"
-            >
-          </div>
-        </div>
-      </article>
-
-      <article class="elevated-card feature-panel feature-panel-reversed">
-        <div class="feature-copy">
-          <p class="eyebrow">PRO Portfolio</p>
-          <h3>See how your financial picture is changing.</h3>
-          <p>
-            Portfolio views make it easier to understand how assets and liabilities are distributed, whether you think in tags,
-            accounts, or the broader shape of your money decisions.
-          </p>
-          <ul class="compact-list">
-            <li>See allocation across assets and liabilities</li>
-            <li>Compare structure by account or by tag</li>
-            <li>Understand the bigger picture beyond a single expense log</li>
-          </ul>
-          <p class="feature-note">
-            If you want to preview this deeper layer before upgrading, rewarded access can temporarily unlock locked Insights widgets for a limited session.
-          </p>
-        </div>
-        <div class="feature-media">
-          <div class="media-window feature-media-window">
-            <img
-              class="device-shot shot-portfolio"
-              src="./images/banner-4.png"
-              alt="Fiscora portfolio screen showing asset allocation and liability allocation charts"
-              width="768"
-              height="1365"
-              loading="lazy"
-            >
-          </div>
-        </div>
-      </article>
-
-      <article class="elevated-card feature-panel">
-        <div class="feature-copy">
-          <p class="eyebrow">Free core tracking</p>
-          <h3>Focus on what you can control every day.</h3>
-          <p>
-            Fiscora stays practical at the daily level. You can review recent activity, keep your transaction flow understandable,
-            and keep the habit lightweight without needing bank-linking or forced setup friction.
-          </p>
-          <ul class="compact-list">
-            <li>Manual tracking that stays readable and fast</li>
-            <li>Simple transaction review flow for everyday updates</li>
-            <li>A calmer way to stay close to your finances</li>
-          </ul>
-        </div>
-        <div class="feature-media">
-          <div class="media-window feature-media-window">
-            <img
-              class="device-shot shot-activity"
-              src="./images/banner-2.png"
-              alt="Fiscora transaction activity screen showing recent entries and controls"
-              width="768"
-              height="1365"
-              loading="lazy"
-            >
-          </div>
-        </div>
-      </article>
-
-      <article class="elevated-card feature-panel feature-panel-reversed">
-        <div class="feature-copy">
-          <p class="eyebrow">Free Insights Summary</p>
-          <h3>See the important numbers at a glance.</h3>
-          <p>
-            Even before PRO, Fiscora gives you a clearer summary of momentum, net flow, account counts, and the signals that help you understand whether your routine is moving in the right direction.
-          </p>
-          <ul class="compact-list">
-            <li>Quick summary metrics that stay easy to read</li>
-            <li>Month-to-date signals and streak-based encouragement</li>
-            <li>A better snapshot before you dive deeper</li>
-          </ul>
-        </div>
-        <div class="feature-media">
-          <div class="media-window feature-media-window">
-            <img
-              class="device-shot shot-summary"
-              src="./images/banner-3.png"
-              alt="Fiscora summary insights screen showing net worth, net flow, and spending pace"
-              width="768"
-              height="1365"
-              loading="lazy"
-            >
-          </div>
-        </div>
-      </article>
-
-      <article class="elevated-card feature-panel">
-        <div class="feature-copy">
-          <p class="eyebrow">Android quick add widget</p>
-          <h3>Start a new transaction straight from your home screen.</h3>
-          <p>
-            If you want less friction between noticing a spend and logging it, Fiscora includes an Android home screen widget that opens a focused quick add flow in one tap.
-          </p>
-          <ul class="compact-list">
-            <li>Jump into a new transaction without browsing through the app first</li>
-            <li>Keep fast capture close to your daily routine on Android</li>
-            <li>Stay lightweight when all you need is a quick entry point</li>
-          </ul>
-          <p class="feature-note">
-            This widget is available for Android home screens and is built for faster capture, not extra setup overhead.
-          </p>
-        </div>
-        <div class="feature-media">
-          <div class="media-window feature-media-window feature-media-window-widget">
-            <img
-              class="device-shot shot-widget"
-              src="./images/widgets.jpeg"
-              alt="Android widget picker showing Fiscora's New Transaction home screen widget"
-              width="1080"
-              height="1044"
-              loading="lazy"
-            >
-          </div>
-        </div>
-      </article>
-    </section>
-
-    <section id="privacy" class="elevated-card privacy-section">
-      <div class="section-header">
-        <div>
-          <p class="eyebrow">Privacy and local-first</p>
-          <h2 class="section-title">Privacy that is understandable, not vague.</h2>
-        </div>
-        <p class="section-summary">
-          Fiscora is built for people who want visibility without handing over unnecessary control or being forced into a bank-connected setup.
-        </p>
-      </div>
-
-      <div class="privacy-grid">
-        <div class="privacy-copy">
-          <p>
-            Fiscora is designed so your core finance records stay on your device first unless you choose to export or share them.
-            You can start without creating an account, and the product is shaped for people who want a private, practical way to manage money.
-          </p>
-          <ul class="compact-list">
-            <li>No account required to get started</li>
-            <li>Core finance records are stored on-device first</li>
-            <li>Encrypted backup is available as part of PRO</li>
-            <li>Extra privacy controls are there for people who want tighter protection</li>
-          </ul>
-          <div class="action-row">
-            <a class="button-secondary" href="./privacy-policy.html">Read the Privacy Policy</a>
-            <a class="button-outline" href="./terms-of-service.html">Read the Terms</a>
-          </div>
-        </div>
-
-        <aside class="surface-card privacy-aside">
-          <p class="metric-label">What this page is not claiming</p>
-          <ul class="compact-list">
-            <li>It does not claim zero data collection</li>
-            <li>It does not claim fully offline behavior everywhere</li>
-            <li>It does not present Fiscora like a bank-sync super app</li>
-          </ul>
-        </aside>
-      </div>
-    </section>
-
-    <section id="faq" class="section faq-section">
-      <div class="section-header">
-        <div>
-          <p class="eyebrow">FAQ</p>
-          <h2 class="section-title">The questions people ask before they trust a finance app.</h2>
-        </div>
-      </div>
-
-      <div class="faq-grid">
-        <details class="surface-card faq-item" open>
-          <summary>Do I need to create an account to use Fiscora?</summary>
-          <p>No. Fiscora is designed so you can start using the app without creating an account first.</p>
-        </details>
-        <details class="surface-card faq-item">
-          <summary>What does local-first mean in practice?</summary>
-          <p>It means your core finance records are intended to stay on your device first unless you choose to export or share them.</p>
-        </details>
-        <details class="surface-card faq-item">
-          <summary>Does Fiscora connect to my bank account?</summary>
-          <p>No bank connection is required. Fiscora is positioned for users who want manual control without bank-linking pressure.</p>
-        </details>
-        <details class="surface-card faq-item">
-          <summary>Is Fiscora free to use?</summary>
-          <p>Yes. The core tracking experience is free to use, including everyday account and expense tracking plus the free Summary side of Insights.</p>
-        </details>
-        <details class="surface-card faq-item">
-          <summary>What does PRO unlock?</summary>
-          <p>PRO adds deeper Reports and Portfolio views, advanced filters and organization tools, transaction notes, unlimited accounts, encrypted backup, premium privacy conveniences, and 30-day action history.</p>
-        </details>
-        <details class="surface-card faq-item">
-          <summary>Can I try deeper Insights before upgrading?</summary>
-          <p>Yes. When rewarded access is available, you can watch a quick rewarded ad to temporarily unlock locked Insights widgets before deciding to upgrade.</p>
-        </details>
-        <details class="surface-card faq-item">
-          <summary>Can I choose the app currency?</summary>
-          <p>Yes. Fiscora lets you choose your preferred currency during onboarding and change it again later in settings.</p>
-        </details>
-        <details class="surface-card faq-item">
-          <summary>Where can I download Fiscora?</summary>
-          <p>Fiscora is currently available on <a href="https://play.google.com/store/apps/details?id=com.rejuvenize.fiscora" target="_blank" rel="noreferrer noopener">Google Play for Android</a>.</p>
-        </details>
-        <details class="surface-card faq-item">
-          <summary>Where can I read the privacy policy or contact support?</summary>
-          <p>
-            You can read the <a href="./privacy-policy.html">Privacy Policy</a>, review the
-            <a href="./terms-of-service.html">Terms of Service</a>, or email
-            <a href="mailto:rejuvenize@proton.me">rejuvenize@proton.me</a>.
-          </p>
-        </details>
-      </div>
-    </section>
-
-    <section id="get-app" class="hero-card final-cta-card">
-      <div class="final-cta-grid">
-        <div class="final-cta-copy">
-          <p class="eyebrow">Get the app</p>
-          <h2>Track money simply, privately, and with room to go deeper.</h2>
-          <p class="lede">
-            Start with the free essentials, unlock PRO when you want a deeper financial picture,
-            and use rewarded access when you want a short preview of locked Insights before upgrading.
-          </p>
-          <div class="action-row">
-            <a
-              class="store-badge"
-              href="https://play.google.com/store/apps/details?id=com.rejuvenize.fiscora"
-              target="_blank"
-              rel="noreferrer noopener"
-              aria-label="Get Fiscora on Google Play"
-            >
-              <span class="store-badge__icon" aria-hidden="true">
-                <svg viewBox="0 0 28 28" role="presentation" focusable="false">
-                  <defs>
-                    <linearGradient id="store-badge-gradient-cta" x1="5" y1="14" x2="23" y2="14" gradientUnits="userSpaceOnUse">
-                      <stop offset="0" stop-color="#00d7ff"></stop>
-                      <stop offset="1" stop-color="#79ffb7"></stop>
-                    </linearGradient>
-                  </defs>
-                  <path d="M7 5.5L21.5 14L7 22.5V5.5Z" fill="url(#store-badge-gradient-cta)"></path>
-                  <path d="M7 5.5L13.4 11.9L10.4 14L7 5.5Z" fill="#00a6ff" opacity="0.9"></path>
-                  <path d="M7 22.5L13.4 16.1L10.4 14L7 22.5Z" fill="#00d084" opacity="0.9"></path>
-                </svg>
-              </span>
-              <span class="store-badge__copy">
-                <span class="store-badge__label">Get it on</span>
-                <span class="store-badge__title">Google Play</span>
-              </span>
-            </a>
-            <a class="button-secondary" href="mailto:rejuvenize@proton.me">Contact support</a>
-          </div>
-          <p class="availability-note">Fiscora is available now on Google Play for Android. Download it there to start tracking right away.</p>
-        </div>
-        <div class="media-window wide-proof-media">
-          <img
-            class="wide-proof-shot feature-graphic-shot"
-            src="./images/Play-Feature-graphic.png"
-            alt="Fiscora feature graphic showing the brand and key product screens"
-            width="1024"
-            height="576"
-            loading="lazy"
-          >
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer landing-footer surface-card">
-    <div class="footer-copy">
-      <strong>Fiscora</strong>
-      <p class="subtle">A privacy-first, local-first finance tracker with a free core experience and deeper PRO insights when you want them.</p>
-      <p class="footer-meta subtle">Fiscora by <a class="footer-meta-link" href="../">rejuvenize</a></p>
-    </div>
-    <nav class="footer-links-group" aria-label="Footer">
-      <div class="footer-link-section">
-        <p class="footer-section-title">Explore</p>
+      <nav class="site-nav" aria-label="Primary">
         <a href="#features">Features</a>
-        <a href="#privacy">Privacy</a>
         <a href="#faq">FAQ</a>
-      </div>
-      <div class="footer-link-section">
-        <p class="footer-section-title">Get started</p>
+      </nav>
+
+      <div class="header-actions">
         <a
-          class="store-badge store-badge--compact"
+          class="store-badge"
           href="https://play.google.com/store/apps/details?id=com.rejuvenize.fiscora"
           target="_blank"
           rel="noreferrer noopener"
@@ -585,14 +120,32 @@
           <span class="store-badge__icon" aria-hidden="true">
             <svg viewBox="0 0 28 28" role="presentation" focusable="false">
               <defs>
-                <linearGradient id="store-badge-gradient-footer" x1="5" y1="14" x2="23" y2="14" gradientUnits="userSpaceOnUse">
+                <linearGradient
+                  id="store-badge-gradient-header"
+                  x1="5"
+                  y1="14"
+                  x2="23"
+                  y2="14"
+                  gradientUnits="userSpaceOnUse"
+                >
                   <stop offset="0" stop-color="#00d7ff"></stop>
                   <stop offset="1" stop-color="#79ffb7"></stop>
                 </linearGradient>
               </defs>
-              <path d="M7 5.5L21.5 14L7 22.5V5.5Z" fill="url(#store-badge-gradient-footer)"></path>
-              <path d="M7 5.5L13.4 11.9L10.4 14L7 5.5Z" fill="#00a6ff" opacity="0.9"></path>
-              <path d="M7 22.5L13.4 16.1L10.4 14L7 22.5Z" fill="#00d084" opacity="0.9"></path>
+              <path
+                d="M7 5.5L21.5 14L7 22.5V5.5Z"
+                fill="url(#store-badge-gradient-header)"
+              ></path>
+              <path
+                d="M7 5.5L13.4 11.9L10.4 14L7 5.5Z"
+                fill="#00a6ff"
+                opacity="0.9"
+              ></path>
+              <path
+                d="M7 22.5L13.4 16.1L10.4 14L7 22.5Z"
+                fill="#00d084"
+                opacity="0.9"
+              ></path>
             </svg>
           </span>
           <span class="store-badge__copy">
@@ -600,17 +153,729 @@
             <span class="store-badge__title">Google Play</span>
           </span>
         </a>
-        <a href="#get-app">Get the app</a>
       </div>
-      <div class="footer-link-section">
-        <p class="footer-section-title">Support</p>
-        <a href="./privacy-policy.html">Privacy Policy</a>
-        <a href="./terms-of-service.html">Terms of Service</a>
-        <a href="mailto:rejuvenize@proton.me">rejuvenize@proton.me</a>
-      </div>
-    </nav>
-  </footer>
+    </header>
 
-  <a class="back-to-top-button" href="#hero" aria-label="Back to top">Top</a>
-</body>
+    <main class="site-shell landing-shell">
+      <section id="hero" class="hero-card landing-hero">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Now on Google Play for Android</p>
+            <h1>Track your money with more clarity and more control.</h1>
+            <p class="lede">
+              Fiscora gives you a free core experience for tracking accounts,
+              expenses, and everyday progress, then opens deeper PRO reports,
+              portfolio views, encrypted backup, richer organization, and
+              privacy conveniences when you want more depth.
+            </p>
+            <div class="action-row">
+              <a
+                class="store-badge"
+                href="https://play.google.com/store/apps/details?id=com.rejuvenize.fiscora"
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="Get Fiscora on Google Play"
+              >
+                <span class="store-badge__icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 28 28"
+                    role="presentation"
+                    focusable="false"
+                  >
+                    <defs>
+                      <linearGradient
+                        id="store-badge-gradient-hero"
+                        x1="5"
+                        y1="14"
+                        x2="23"
+                        y2="14"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop offset="0" stop-color="#00d7ff"></stop>
+                        <stop offset="1" stop-color="#79ffb7"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path
+                      d="M7 5.5L21.5 14L7 22.5V5.5Z"
+                      fill="url(#store-badge-gradient-hero)"
+                    ></path>
+                    <path
+                      d="M7 5.5L13.4 11.9L10.4 14L7 5.5Z"
+                      fill="#00a6ff"
+                      opacity="0.9"
+                    ></path>
+                    <path
+                      d="M7 22.5L13.4 16.1L10.4 14L7 22.5Z"
+                      fill="#00d084"
+                      opacity="0.9"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="store-badge__copy">
+                  <span class="store-badge__label">Get it on</span>
+                  <span class="store-badge__title">Google Play</span>
+                </span>
+              </a>
+              <a class="button-outline" href="#faq">Read the FAQ</a>
+              <a class="button-secondary" href="./privacy-policy.html"
+                >See how privacy works</a
+              >
+            </div>
+            <p id="play-availability-note" class="availability-note">
+              Fiscora is live on Google Play for Android. Start with the free
+              core experience, then unlock PRO in app when you want deeper
+              reports, portfolio views, encrypted backup, and premium privacy
+              tools.
+            </p>
+
+            <div class="hero-access-grid">
+              <article class="metric-card access-card">
+                <p class="metric-label">Free to start</p>
+                <p class="access-card-title">
+                  Track accounts, expenses, and your core financial picture
+                  right away.
+                </p>
+              </article>
+              <article class="metric-card access-card">
+                <p class="metric-label">Upgrade once to PRO</p>
+                <p class="access-card-title">
+                  Unlock lifetime access to reports, portfolio views, encrypted
+                  backup, premium privacy tools, and richer organization.
+                </p>
+              </article>
+              <article class="metric-card access-card">
+                <p class="metric-label">Try deeper Insights first</p>
+                <p class="access-card-title">
+                  Watch a quick rewarded ad to temporarily unlock locked
+                  Insights widgets before upgrading.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual-stack">
+            <div class="media-window hero-media-window">
+              <img
+                class="device-shot hero-shot shot-home"
+                src="./images/banner-1.png"
+                alt="Fiscora home screen showing net worth, filters, and account cards"
+                width="768"
+                height="1365"
+              />
+            </div>
+            <div class="hero-side-card surface-card">
+              <p class="metric-label">Made for real use</p>
+              <ul class="compact-list">
+                <li>No account required to begin</li>
+                <li>Manual control without bank-linking pressure</li>
+                <li>Local-first setup with practical reporting</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proof" class="section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Trust you can verify</p>
+            <h2 class="section-title">
+              A finance tracker that explains itself clearly.
+            </h2>
+          </div>
+          <p class="section-summary">
+            Fiscora is strongest when every claim is backed by something real
+            you can see in the product or on this page.
+          </p>
+        </div>
+
+        <div class="proof-grid">
+          <article class="surface-card proof-card">
+            <h3>No account required</h3>
+            <p>
+              Start tracking without creating an account or handing over your
+              setup momentum first.
+            </p>
+          </article>
+          <article class="surface-card proof-card">
+            <h3>Stored on your device first</h3>
+            <p>
+              Your core finance records are positioned to stay local-first
+              unless you choose to export or share them.
+            </p>
+          </article>
+          <article class="surface-card proof-card">
+            <h3>Free core tracking</h3>
+            <p>
+              Use Fiscora for essential expense, account, and summary tracking
+              before deciding whether PRO depth is worth it.
+            </p>
+          </article>
+          <article class="surface-card proof-card">
+            <h3>PRO depth when you want more</h3>
+            <p>
+              Reports, portfolio breakdowns, encrypted backup, and premium
+              organization are there when your tracking grows up.
+            </p>
+          </article>
+          <article class="surface-card proof-card">
+            <h3>Rewarded access for trial moments</h3>
+            <p>
+              A quick rewarded ad can temporarily unlock locked Insights widgets
+              so you can preview deeper analysis without committing yet.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="elevated-card premium-story-card">
+        <div class="section-header premium-story-header">
+          <div>
+            <p class="eyebrow">Premium depth, friendly access</p>
+            <h2 class="section-title">
+              Go deeper without losing the simple starting point.
+            </h2>
+          </div>
+          <p class="section-summary">
+            Fiscora is designed so the core experience stays approachable, while
+            PRO adds deeper analysis, stronger privacy conveniences, and a
+            cleaner way to manage growing financial data.
+          </p>
+        </div>
+
+        <div class="premium-grid">
+          <article class="metric-card premium-card">
+            <p class="metric-label">Reports</p>
+            <h3>
+              Track net worth, account balances, income versus expense, and your
+              strongest saving or spending categories.
+            </h3>
+          </article>
+          <article class="metric-card premium-card">
+            <p class="metric-label">Portfolio</p>
+            <h3>
+              See how assets and liabilities are distributed across tags or
+              accounts so your overall structure is easier to understand.
+            </h3>
+          </article>
+          <article class="metric-card premium-card">
+            <p class="metric-label">Organization and privacy tools</p>
+            <h3>
+              Unlock advanced filters, tags, categories, notes, encrypted
+              backup, and stronger privacy controls as your data grows.
+            </h3>
+          </article>
+        </div>
+
+        <div class="plan-comparison-grid">
+          <article class="surface-card plan-card">
+            <p class="eyebrow">Free</p>
+            <h3>Strong enough to start with confidence.</h3>
+            <ul class="compact-list">
+              <li>Track expenses, accounts, and daily activity</li>
+              <li>Use the free Summary side of Insights</li>
+              <li>Build a reliable habit before upgrading</li>
+            </ul>
+          </article>
+          <article class="surface-card plan-card plan-card-accent">
+            <p class="eyebrow">PRO</p>
+            <h3>For people who want a fuller financial picture.</h3>
+            <p class="subtle">
+              PRO is a paid upgrade with lifetime access to deeper reports,
+              portfolio views, premium organization, encrypted backup, 30-day
+              action history, unlimited accounts, and additional privacy
+              conveniences.
+            </p>
+            <p class="subtle">
+              If you want to sample the locked Insights experience first,
+              rewarded access can temporarily unlock it for a limited time.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="section feature-stack">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Features</p>
+            <h2 class="section-title">
+              Built for daily clarity first, then deeper visibility.
+            </h2>
+          </div>
+          <p class="section-summary">
+            The screenshots below show how Fiscora supports everyday tracking,
+            faster entry, and richer reporting when you want a deeper view.
+          </p>
+        </div>
+
+        <article class="elevated-card feature-panel">
+          <div class="feature-copy">
+            <p class="eyebrow">PRO Reports</p>
+            <h3>Take control of your expenses with clearer reporting.</h3>
+            <p>
+              When you want more than a running list of transactions, Fiscora
+              opens a richer reports surface for comparing income versus
+              expense, spotting trends, and seeing where your strongest saving
+              or spending categories are moving.
+            </p>
+            <ul class="compact-list">
+              <li>Track net worth change and balance change over time</li>
+              <li>Compare income versus expense across shared time ranges</li>
+              <li>
+                Surface the categories doing the most work in your finances
+              </li>
+            </ul>
+            <p class="feature-note">
+              Friendly note: this deeper reports layer is part of PRO, while the
+              free experience still lets you build the habit and see core
+              tracking data first.
+            </p>
+          </div>
+          <div class="feature-media">
+            <div
+              class="media-window feature-media-window feature-media-window-wide"
+            >
+              <img
+                class="device-shot shot-reports"
+                src="./images/banner-5.png"
+                alt="Fiscora reports screen showing income versus expense trends and top saving categories"
+                width="768"
+                height="1365"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </article>
+
+        <article class="elevated-card feature-panel feature-panel-reversed">
+          <div class="feature-copy">
+            <p class="eyebrow">PRO Portfolio</p>
+            <h3>See how your financial picture is changing.</h3>
+            <p>
+              Portfolio views make it easier to understand how assets and
+              liabilities are distributed, whether you think in tags, accounts,
+              or the broader shape of your money decisions.
+            </p>
+            <ul class="compact-list">
+              <li>See allocation across assets and liabilities</li>
+              <li>Compare structure by account or by tag</li>
+              <li>Understand the bigger picture beyond a single expense log</li>
+            </ul>
+            <p class="feature-note">
+              If you want to preview this deeper layer before upgrading,
+              rewarded access can temporarily unlock locked Insights widgets for
+              a limited session.
+            </p>
+          </div>
+          <div class="feature-media">
+            <div class="media-window feature-media-window">
+              <img
+                class="device-shot shot-portfolio"
+                src="./images/banner-4.png"
+                alt="Fiscora portfolio screen showing asset allocation and liability allocation charts"
+                width="768"
+                height="1365"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </article>
+
+        <article class="elevated-card feature-panel">
+          <div class="feature-copy">
+            <p class="eyebrow">Free core tracking</p>
+            <h3>Focus on what you can control every day.</h3>
+            <p>
+              Fiscora stays practical at the daily level. You can review recent
+              activity, keep your transaction flow understandable, and keep the
+              habit lightweight without needing bank-linking or forced setup
+              friction.
+            </p>
+            <ul class="compact-list">
+              <li>Manual tracking that stays readable and fast</li>
+              <li>Simple transaction review flow for everyday updates</li>
+              <li>A calmer way to stay close to your finances</li>
+            </ul>
+          </div>
+          <div class="feature-media">
+            <div class="media-window feature-media-window">
+              <img
+                class="device-shot shot-activity"
+                src="./images/banner-2.png"
+                alt="Fiscora transaction activity screen showing recent entries and controls"
+                width="768"
+                height="1365"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </article>
+
+        <article class="elevated-card feature-panel feature-panel-reversed">
+          <div class="feature-copy">
+            <p class="eyebrow">Free Insights Summary</p>
+            <h3>See the important numbers at a glance.</h3>
+            <p>
+              Even before PRO, Fiscora gives you a clearer summary of momentum,
+              net flow, account counts, and the signals that help you understand
+              whether your routine is moving in the right direction.
+            </p>
+            <ul class="compact-list">
+              <li>Quick summary metrics that stay easy to read</li>
+              <li>Month-to-date signals and streak-based encouragement</li>
+              <li>A better snapshot before you dive deeper</li>
+            </ul>
+          </div>
+          <div class="feature-media">
+            <div class="media-window feature-media-window">
+              <img
+                class="device-shot shot-summary"
+                src="./images/banner-3.png"
+                alt="Fiscora summary insights screen showing net worth, net flow, and spending pace"
+                width="768"
+                height="1365"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </article>
+
+        <article class="elevated-card feature-panel">
+          <div class="feature-copy">
+            <p class="eyebrow">Android quick add widget</p>
+            <h3>Start a new transaction straight from your home screen.</h3>
+            <p>
+              If you want less friction between noticing a spend and logging it,
+              Fiscora includes an Android home screen widget that opens a
+              focused quick add flow in one tap.
+            </p>
+            <ul class="compact-list">
+              <li>
+                Jump into a new transaction without browsing through the app
+                first
+              </li>
+              <li>Keep fast capture close to your daily routine on Android</li>
+              <li>Stay lightweight when all you need is a quick entry point</li>
+            </ul>
+            <p class="feature-note">
+              This widget is available for Android home screens and is built for
+              faster capture, not extra setup overhead.
+            </p>
+          </div>
+          <div class="feature-media">
+            <div
+              class="media-window feature-media-window feature-media-window-widget"
+            >
+              <img
+                class="device-shot shot-widget"
+                src="./images/widgets.jpeg"
+                alt="Android widget picker showing Fiscora's New Transaction home screen widget"
+                width="1080"
+                height="1044"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="privacy" class="elevated-card privacy-section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Privacy and local-first</p>
+            <h2 class="section-title">
+              Privacy that is understandable, not vague.
+            </h2>
+          </div>
+          <p class="section-summary">
+            Fiscora is built for people who want visibility without handing over
+            unnecessary control or being forced into a bank-connected setup.
+          </p>
+        </div>
+
+        <div class="privacy-grid">
+          <div class="privacy-copy">
+            <p>
+              Fiscora is designed so your core finance records stay on your
+              device first unless you choose to export or share them. You can
+              start without creating an account, and the product is shaped for
+              people who want a private, practical way to manage money.
+            </p>
+            <ul class="compact-list">
+              <li>No account required to get started</li>
+              <li>Core finance records are stored on-device first</li>
+              <li>Encrypted backup is available as part of PRO</li>
+              <li>
+                Extra privacy controls are there for people who want tighter
+                protection
+              </li>
+            </ul>
+            <div class="action-row">
+              <a class="button-secondary" href="./privacy-policy.html"
+                >Read the Privacy Policy</a
+              >
+              <a class="button-outline" href="./terms-of-service.html"
+                >Read the Terms</a
+              >
+            </div>
+          </div>
+
+          <aside class="surface-card privacy-aside">
+            <p class="metric-label">What this page is not claiming</p>
+            <ul class="compact-list">
+              <li>It does not claim zero data collection</li>
+              <li>It does not claim fully offline behavior everywhere</li>
+              <li>It does not present Fiscora like a bank-sync super app</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="faq" class="section faq-section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">FAQ</p>
+            <h2 class="section-title">
+              The questions people ask before they trust a finance app.
+            </h2>
+          </div>
+        </div>
+
+        <div class="faq-grid">
+          <details class="surface-card faq-item" open>
+            <summary>Do I need to create an account to use Fiscora?</summary>
+            <p>
+              No. Fiscora is designed so you can start using the app without
+              creating an account first.
+            </p>
+          </details>
+          <details class="surface-card faq-item">
+            <summary>What does local-first mean in practice?</summary>
+            <p>
+              It means your core finance records are intended to stay on your
+              device first unless you choose to export or share them.
+            </p>
+          </details>
+          <details class="surface-card faq-item">
+            <summary>Does Fiscora connect to my bank account?</summary>
+            <p>
+              No bank connection is required. Fiscora is positioned for users
+              who want manual control without bank-linking pressure.
+            </p>
+          </details>
+          <details class="surface-card faq-item">
+            <summary>Is Fiscora free to use?</summary>
+            <p>
+              Yes. The core tracking experience is free to use, including
+              everyday account and expense tracking plus the free Summary side
+              of Insights.
+            </p>
+          </details>
+          <details class="surface-card faq-item">
+            <summary>What does PRO unlock?</summary>
+            <p>
+              PRO adds deeper Reports and Portfolio views, advanced filters and
+              organization tools, transaction notes, unlimited accounts,
+              encrypted backup, premium privacy conveniences, and 30-day action
+              history.
+            </p>
+          </details>
+          <details class="surface-card faq-item">
+            <summary>Can I try deeper Insights before upgrading?</summary>
+            <p>
+              Yes. When rewarded access is available, you can watch a quick
+              rewarded ad to temporarily unlock locked Insights widgets before
+              deciding to upgrade.
+            </p>
+          </details>
+          <details class="surface-card faq-item">
+            <summary>Can I choose the app currency?</summary>
+            <p>
+              Yes. Fiscora lets you choose your preferred currency during
+              onboarding and change it again later in settings.
+            </p>
+          </details>
+          <details class="surface-card faq-item">
+            <summary>Where can I download Fiscora?</summary>
+            <p>
+              Fiscora is currently available on
+              <a
+                href="https://play.google.com/store/apps/details?id=com.rejuvenize.fiscora"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Google Play for Android</a
+              >.
+            </p>
+          </details>
+          <details class="surface-card faq-item">
+            <summary>
+              Where can I read the privacy policy or contact support?
+            </summary>
+            <p>
+              You can read the
+              <a href="./privacy-policy.html">Privacy Policy</a>, review the
+              <a href="./terms-of-service.html">Terms of Service</a>, or email
+              <a href="mailto:rejuvenize@proton.me">rejuvenize@proton.me</a>.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section id="get-app" class="hero-card final-cta-card">
+        <div class="final-cta-grid">
+          <div class="final-cta-copy">
+            <p class="eyebrow">Get the app</p>
+            <h2>Track money simply, privately, and with room to go deeper.</h2>
+            <p class="lede">
+              Start with the free essentials, unlock PRO when you want a deeper
+              financial picture, and use rewarded access when you want a short
+              preview of locked Insights before upgrading.
+            </p>
+            <div class="action-row">
+              <a
+                class="store-badge"
+                href="https://play.google.com/store/apps/details?id=com.rejuvenize.fiscora"
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="Get Fiscora on Google Play"
+              >
+                <span class="store-badge__icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 28 28"
+                    role="presentation"
+                    focusable="false"
+                  >
+                    <defs>
+                      <linearGradient
+                        id="store-badge-gradient-cta"
+                        x1="5"
+                        y1="14"
+                        x2="23"
+                        y2="14"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop offset="0" stop-color="#00d7ff"></stop>
+                        <stop offset="1" stop-color="#79ffb7"></stop>
+                      </linearGradient>
+                    </defs>
+                    <path
+                      d="M7 5.5L21.5 14L7 22.5V5.5Z"
+                      fill="url(#store-badge-gradient-cta)"
+                    ></path>
+                    <path
+                      d="M7 5.5L13.4 11.9L10.4 14L7 5.5Z"
+                      fill="#00a6ff"
+                      opacity="0.9"
+                    ></path>
+                    <path
+                      d="M7 22.5L13.4 16.1L10.4 14L7 22.5Z"
+                      fill="#00d084"
+                      opacity="0.9"
+                    ></path>
+                  </svg>
+                </span>
+                <span class="store-badge__copy">
+                  <span class="store-badge__label">Get it on</span>
+                  <span class="store-badge__title">Google Play</span>
+                </span>
+              </a>
+              <a class="button-secondary" href="mailto:rejuvenize@proton.me"
+                >Contact support</a
+              >
+            </div>
+            <p class="availability-note">
+              Fiscora is available now on Google Play for Android. Download it
+              there to start tracking right away.
+            </p>
+          </div>
+          <div class="media-window wide-proof-media">
+            <img
+              class="wide-proof-shot feature-graphic-shot"
+              src="./images/Play-Feature-graphic.png"
+              alt="Fiscora feature graphic showing the brand and key product screens"
+              width="1024"
+              height="576"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer landing-footer surface-card">
+      <div class="footer-copy">
+        <strong>Fiscora</strong>
+        <p class="subtle">
+          A privacy-first, local-first finance tracker with a free core
+          experience and deeper PRO insights when you want them.
+        </p>
+        <p class="footer-meta subtle">
+          Fiscora by <a class="footer-meta-link" href="../">rejuvenize</a>
+        </p>
+      </div>
+      <nav class="footer-links-group" aria-label="Footer">
+        <div class="footer-link-section">
+          <p class="footer-section-title">Explore</p>
+          <a href="#features">Features</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer-link-section">
+          <p class="footer-section-title">Get started</p>
+          <a
+            class="store-badge store-badge--compact"
+            href="https://play.google.com/store/apps/details?id=com.rejuvenize.fiscora"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="Get Fiscora on Google Play"
+          >
+            <span class="store-badge__icon" aria-hidden="true">
+              <svg viewBox="0 0 28 28" role="presentation" focusable="false">
+                <defs>
+                  <linearGradient
+                    id="store-badge-gradient-footer"
+                    x1="5"
+                    y1="14"
+                    x2="23"
+                    y2="14"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop offset="0" stop-color="#00d7ff"></stop>
+                    <stop offset="1" stop-color="#79ffb7"></stop>
+                  </linearGradient>
+                </defs>
+                <path
+                  d="M7 5.5L21.5 14L7 22.5V5.5Z"
+                  fill="url(#store-badge-gradient-footer)"
+                ></path>
+                <path
+                  d="M7 5.5L13.4 11.9L10.4 14L7 5.5Z"
+                  fill="#00a6ff"
+                  opacity="0.9"
+                ></path>
+                <path
+                  d="M7 22.5L13.4 16.1L10.4 14L7 22.5Z"
+                  fill="#00d084"
+                  opacity="0.9"
+                ></path>
+              </svg>
+            </span>
+            <span class="store-badge__copy">
+              <span class="store-badge__label">Get it on</span>
+              <span class="store-badge__title">Google Play</span>
+            </span>
+          </a>
+          <a href="#get-app">Get the app</a>
+        </div>
+        <div class="footer-link-section">
+          <p class="footer-section-title">Support</p>
+          <a href="./privacy-policy.html">Privacy Policy</a>
+          <a href="./terms-of-service.html">Terms of Service</a>
+          <a href="mailto:rejuvenize@proton.me">rejuvenize@proton.me</a>
+        </div>
+      </nav>
+    </footer>
+
+    <a class="back-to-top-button" href="#hero" aria-label="Back to top">Top</a>
+  </body>
 </html>
